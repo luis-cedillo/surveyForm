@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="styleshee');
+
+body {
+  background-image:                     url("https://i.imgur.com/29muNiP.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 48px;
+}
+
+#description {
+  text-align: center;
+  font-family: 'Bilbo', Monospace;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#entireForm {
+  background-color: rgba(241,241,212, 0.5);
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+}
+
+label {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#character-label {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#lord-movies {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#hobbit-movie {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#reason-join {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#comments {
+  font-family: 'Bilbo', cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 75%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+#submit {
+  background-color: green;
+  font-family: 'Bilbo', cursive;
+  font-weight: 600;
+  font-size: 24px;
+}
